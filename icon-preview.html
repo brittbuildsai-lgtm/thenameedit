@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Icon Style Preview</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'DM Sans', system-ui, sans-serif; background: #e8f0f8; padding: 2rem; }
+  h1 { text-align: center; margin-bottom: 2rem; color: #2a3a4a; font-size: 1.5rem; }
+  .styles { display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; }
+  .style-group { background: white; border-radius: 20px; padding: 1.5rem; width: 280px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+  .style-group h2 { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.1em; color: #6b8299; margin-bottom: 1rem; text-align: center; }
+  .style-group p { font-size: 0.75rem; color: #8899aa; margin-bottom: 1rem; text-align: center; line-height: 1.4; }
+  .icons-row { display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; }
+  .icon-card { display: flex; flex-direction: column; align-items: center; gap: 0.4rem; width: 70px; }
+  .icon-wrap { width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; }
+  .icon-wrap svg { color: #2a3a4a; opacity: 0.85; }
+  .icon-label { font-size: 0.65rem; color: #5a6a7a; text-align: center; }
+  .peach { background: #f5d5c8; }
+  .sage { background: #c8d8c4; }
+  .rose { background: #e8c4cc; }
+  .lavender { background: #d0c4e0; }
+  .sky { background: #bdd4e8; }
+  .mint { background: #b8ddd0; }
+</style>
+</head>
+<body>
+<h1>Pick Your Icon Style</h1>
+<div class="styles">
+
+<!-- STYLE 1: Simple emoji-style (thin lines, no fill) -->
+<div class="style-group">
+  <h2>1. Simple & Clean</h2>
+  <p>Thin strokes, no fills, minimal detail. Like iOS icons.</p>
+  <div class="icons-row">
+    <div class="icon-card">
+      <div class="icon-wrap peach">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 27C16 27 5 20 5 13c0-3.5 2.8-6.5 6.5-6.5 2 0 3.5 1 4.5 2.5 1-1.5 2.5-2.5 4.5-2.5C24.2 6.5 27 9.5 27 13c0 7-11 14-11 14z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <span class="icon-label">Meaningful</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap sage">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M7 25c0 0 2-11 11-16s11-3 11-3-1 11-10 16-12 3-12 3z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 25C13 19 18 13 29 6" stroke="currentColor" stroke-width="1" stroke-linecap="round" opacity="0.4"/></svg>
+      </div>
+      <span class="icon-label">Nature</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap lavender">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="11" stroke="currentColor" stroke-width="1.5"/><path d="M16 9v7l4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <span class="icon-label">1920s</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap rose">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 6l2.5 7H26l-6 4.5 2.5 7L16 20l-6.5 4.5 2.5-7L6 13h7.5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+      </div>
+      <span class="icon-label">Celebrity</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap sky">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M21 7c-5 0-9 4-9 9s4 9 9 9c-4-2-7-5-7-9s3-7 7-9z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="10" r="1" fill="currentColor" opacity="0.5"/><circle cx="26" cy="16" r="0.8" fill="currentColor" opacity="0.4"/></svg>
+      </div>
+      <span class="icon-label">Celestial</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap mint">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 6v20M6 16h20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M9 9l14 14M23 9L9 23" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </div>
+      <span class="icon-label">Seasonal</span>
+    </div>
+  </div>
+</div>
+
+<!-- STYLE 2: Soft & rounded filled -->
+<div class="style-group">
+  <h2>2. Soft & Filled</h2>
+  <p>Rounded shapes with soft fills. Notion/pastel app vibe.</p>
+  <div class="icons-row">
+    <div class="icon-card">
+      <div class="icon-wrap peach">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 27C16 27 5 20 5 13c0-3.5 2.8-6.5 6.5-6.5 2 0 3.5 1 4.5 2.5 1-1.5 2.5-2.5 4.5-2.5C24.2 6.5 27 9.5 27 13c0 7-11 14-11 14z" fill="currentColor" opacity="0.18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <span class="icon-label">Meaningful</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap sage">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M7 25c0 0 2-11 11-16s11-3 11-3-1 11-10 16-12 3-12 3z" fill="currentColor" opacity="0.15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 25C13 19 18 13 29 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/></svg>
+      </div>
+      <span class="icon-label">Nature</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap lavender">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="11" fill="currentColor" opacity="0.1" stroke="currentColor" stroke-width="2"/><path d="M16 9v7l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="16" r="1.5" fill="currentColor" opacity="0.3"/></svg>
+      </div>
+      <span class="icon-label">1920s</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap rose">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 6l2.5 7H26l-6 4.5 2.5 7L16 20l-6.5 4.5 2.5-7L6 13h7.5z" fill="currentColor" opacity="0.15" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+      </div>
+      <span class="icon-label">Celebrity</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap sky">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M21 7c-5 0-9 4-9 9s4 9 9 9c-4-2-7-5-7-9s3-7 7-9z" fill="currentColor" opacity="0.15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="25" cy="10" r="1.5" fill="currentColor" opacity="0.3"/><circle cx="26" cy="17" r="1" fill="currentColor" opacity="0.25"/></svg>
+      </div>
+      <span class="icon-label">Celestial</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap mint">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="6" fill="currentColor" opacity="0.12" stroke="currentColor" stroke-width="2"/><path d="M16 5v5M16 22v5M5 16h5M22 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </div>
+      <span class="icon-label">Seasonal</span>
+    </div>
+  </div>
+</div>
+
+<!-- STYLE 3: Bold & playful -->
+<div class="style-group">
+  <h2>3. Bold & Playful</h2>
+  <p>Thick strokes, chunky shapes. Fun & expressive brand energy.</p>
+  <div class="icons-row">
+    <div class="icon-card">
+      <div class="icon-wrap peach">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 27C16 27 5 20 5 13c0-3.5 2.8-6.5 6.5-6.5 2 0 3.5 1 4.5 2.5 1-1.5 2.5-2.5 4.5-2.5C24.2 6.5 27 9.5 27 13c0 7-11 14-11 14z" fill="currentColor" opacity="0.2" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <span class="icon-label">Meaningful</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap sage">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M8 24c0 0 2-10 10-14s10-3 10-3-1 10-9 14-11 3-11 3z" fill="currentColor" opacity="0.2" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 24c6-5 11-10 20-18" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.35"/></svg>
+      </div>
+      <span class="icon-label">Nature</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap lavender">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="10" fill="currentColor" opacity="0.12" stroke="currentColor" stroke-width="2.5"/><path d="M16 10v6l4 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="16" r="2" fill="currentColor"/></svg>
+      </div>
+      <span class="icon-label">1920s</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap rose">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 6l3 7h7l-5.5 4.5 2 7L16 20l-6.5 4.5 2-7L6 13h7z" fill="currentColor" opacity="0.2" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>
+      </div>
+      <span class="icon-label">Celebrity</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap sky">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M20 7c-5 0-9 4-9 9s4 9 9 9c-4-2-6.5-5-6.5-9s2.5-7 6.5-9z" fill="currentColor" opacity="0.18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="10" r="2" fill="currentColor" opacity="0.4"/><circle cx="26" cy="17" r="1.2" fill="currentColor" opacity="0.3"/></svg>
+      </div>
+      <span class="icon-label">Celestial</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap mint">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="5" fill="currentColor" opacity="0.15" stroke="currentColor" stroke-width="2.5"/><path d="M16 5v5M16 22v5M5 16h5M22 16h5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M8.5 8.5l3.5 3.5M20 20l3.5 3.5M8.5 23.5l3.5-3.5M20 12l3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </div>
+      <span class="icon-label">Seasonal</span>
+    </div>
+  </div>
+</div>
+
+<!-- STYLE 4: Lucide/Feather style -->
+<div class="style-group">
+  <h2>4. Lucide / Feather</h2>
+  <p>Consistent 2px strokes, rounded caps, icon library precision.</p>
+  <div class="icons-row">
+    <div class="icon-card">
+      <div class="icon-wrap peach">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 27C16 27 5 20 5 13c0-3.5 2.8-6.5 6.5-6.5 2 0 3.5 1 4.5 2.5 1-1.5 2.5-2.5 4.5-2.5C24.2 6.5 27 9.5 27 13c0 7-11 14-11 14z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <span class="icon-label">Meaningful</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap sage">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M7 25c0 0 2-11 11-16s11-3 11-3-1 11-10 16-12 3-12 3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 25C13 19 18 13 29 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.5"/></svg>
+      </div>
+      <span class="icon-label">Nature</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap lavender">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="11" stroke="currentColor" stroke-width="2"/><path d="M16 9v7l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <span class="icon-label">1920s</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap rose">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 6l2.9 7h7.1l-5.7 4.3 2.2 7L16 20l-6.5 4.3 2.2-7L6 13h7.1z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+      </div>
+      <span class="icon-label">Celebrity</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap sky">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M21 7c-5 0-9 4-9 9s4 9 9 9c-4-2-7-5-7-9s3-7 7-9z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M24.5 9l.5 1 1-.5M26 16l.5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </div>
+      <span class="icon-label">Celestial</span>
+    </div>
+    <div class="icon-card">
+      <div class="icon-wrap mint">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="5" stroke="currentColor" stroke-width="2"/><path d="M16 5v6M16 21v6M5 16h6M21 16h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </div>
+      <span class="icon-label">Seasonal</span>
+    </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
